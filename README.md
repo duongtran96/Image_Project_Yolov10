@@ -16,11 +16,12 @@ git clone https://github.com/THU-MIG/yolov10.git
 !wget https://github.com/THU-MIG/yolov10/releases/download/v1.1/yolov10n.pt
 ```
 ## Main
-4. Model initialization
-- from ultralytics import YOLOv10
-- MODEL_PATH = "yolov10n.pt"
-- model = YOLOv10(MODEL_PATH)
-
+Once everything is ready, you can run model initialization by 
+```
+from ultralytics import YOLOv10
+MODEL_PATH = "yolov10n.pt"
+model = YOLOv10(MODEL_PATH)
+```
 5. Predict
 The folder Data have video and picture to train.
 5.1 For images
